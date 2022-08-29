@@ -4,4 +4,4 @@
 The UI is as below:
 
 
-![pos1](https://user-images.githubusercontent.com/13314437/187174748-340ed62e-92dd-498c-912d-03a168f0b92a.png)
+![flutter POS](https://user-images.githubusercontent.com/13314437/187175007-008272cb-1e89-4d6a-840a-9fed8459f131.png)
