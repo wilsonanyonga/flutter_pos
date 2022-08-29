@@ -1,5 +1,7 @@
 # flutter_pos
  This is an Open Source Flutter POS
+ 
+It is a windows application but can also be forked for web, mac Os or linux.
 
 The UI is as below:
 
