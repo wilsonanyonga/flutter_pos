@@ -35,6 +35,10 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
 
+  flutter_bloc: ^8.1.1 #for bloc
+  equatable: ^2.0.5 #for use with bloc
+  go_router: ^3.1.0 #for routing
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
