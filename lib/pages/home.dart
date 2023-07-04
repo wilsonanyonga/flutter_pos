@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class MyHomePage extends StatelessWidget {
   MyHomePage({Key? key, required this.title}) : super(key: key);
 
@@ -14,20 +15,20 @@ class MyHomePage extends StatelessWidget {
 
   final String title;
 
-  int _counter = 0;
+  // int _counter = 0;
 
   int _selectedIndex = 0;
 
-  void _incrementCounter() {
-    // setState(() {
-    //   // This call to setState tells the Flutter framework that something has
-    //   // changed in this State, which causes it to rerun the build method below
-    //   // so that the display can reflect the updated values. If we changed
-    //   // _counter without calling setState(), then the build method would not be
-    //   // called again, and so nothing would appear to happen.
-    //   _counter++;
-    // });
-  }
+  // void _incrementCounter() {
+  //   // setState(() {
+  //   //   // This call to setState tells the Flutter framework that something has
+  //   //   // changed in this State, which causes it to rerun the build method below
+  //   //   // so that the display can reflect the updated values. If we changed
+  //   //   // _counter without calling setState(), then the build method would not be
+  //   //   // called again, and so nothing would appear to happen.
+  //   //   _counter++;
+  //   // });
+  // }
 
   @override
   Widget build(BuildContext context) {
@@ -88,8 +89,8 @@ class MyHomePage extends StatelessWidget {
                           border: Border.all(color: Colors.white),
                           borderRadius:
                               const BorderRadius.all(Radius.circular(15.0))),
-                      child: Row(
-                        children: const [
+                      child: const Row(
+                        children: [
                           CircleAvatar(
                             radius: 12,
                             child: Text('L'),
@@ -116,8 +117,8 @@ class MyHomePage extends StatelessWidget {
                           border: Border.all(color: Colors.white),
                           borderRadius:
                               const BorderRadius.all(Radius.circular(15.0))),
-                      child: Row(
-                        children: const [
+                      child: const Row(
+                        children: [
                           CircleAvatar(
                             radius: 12,
                             child: Text('C'),
@@ -144,8 +145,8 @@ class MyHomePage extends StatelessWidget {
                           border: Border.all(color: Colors.white),
                           borderRadius:
                               const BorderRadius.all(Radius.circular(15.0))),
-                      child: Row(
-                        children: const [
+                      child: const Row(
+                        children: [
                           CircleAvatar(
                             radius: 12,
                             child: Text('J'),
@@ -296,8 +297,8 @@ class MyHomePage extends StatelessWidget {
                                     Radius.circular(15.0))),
                             width: 200,
                             height: 170,
-                            child: Stack(
-                              children: const [
+                            child: const Stack(
+                              children: [
                                 Positioned(
                                   top: 10,
                                   child: Icon(Icons.free_breakfast),
@@ -327,8 +328,8 @@ class MyHomePage extends StatelessWidget {
                                     Radius.circular(15.0))),
                             width: 200,
                             height: 170,
-                            child: Stack(
-                              children: const [
+                            child: const Stack(
+                              children: [
                                 Positioned(
                                   top: 10,
                                   child: Icon(Icons.food_bank),
@@ -362,8 +363,8 @@ class MyHomePage extends StatelessWidget {
                                     Radius.circular(15.0))),
                             width: 200,
                             height: 170,
-                            child: Stack(
-                              children: const [
+                            child: const Stack(
+                              children: [
                                 Positioned(
                                     top: 10,
                                     child: Icon(Icons.food_bank_outlined)),
@@ -392,8 +393,8 @@ class MyHomePage extends StatelessWidget {
                                     Radius.circular(15.0))),
                             width: 200,
                             height: 170,
-                            child: Stack(
-                              children: const [
+                            child: const Stack(
+                              children: [
                                 Positioned(
                                   top: 10,
                                   child: Icon(Icons.cake),
@@ -427,8 +428,8 @@ class MyHomePage extends StatelessWidget {
                                     Radius.circular(15.0))),
                             width: 200,
                             height: 170,
-                            child: Stack(
-                              children: const [
+                            child: const Stack(
+                              children: [
                                 Positioned(
                                   top: 10,
                                   child: Icon(Icons.soup_kitchen),
@@ -458,8 +459,8 @@ class MyHomePage extends StatelessWidget {
                                     Radius.circular(15.0))),
                             width: 200,
                             height: 170,
-                            child: Stack(
-                              children: const [
+                            child: const Stack(
+                              children: [
                                 Positioned(
                                   top: 10,
                                   child: Icon(Icons.free_breakfast_sharp),
@@ -493,8 +494,8 @@ class MyHomePage extends StatelessWidget {
                                     Radius.circular(15.0))),
                             width: 200,
                             height: 170,
-                            child: Stack(
-                              children: const [
+                            child: const Stack(
+                              children: [
                                 Positioned(
                                   top: 10,
                                   child: Icon(Icons.bubble_chart),
@@ -524,8 +525,8 @@ class MyHomePage extends StatelessWidget {
                                     Radius.circular(15.0))),
                             width: 200,
                             height: 170,
-                            child: Stack(
-                              children: const [
+                            child: const Stack(
+                              children: [
                                 Positioned(
                                     top: 10, child: Icon(Icons.wine_bar)),
                                 Positioned(
@@ -1484,11 +1485,11 @@ class MyHomePage extends StatelessWidget {
             const SizedBox(width: 20),
             Column(
               children: [
-                SizedBox(
+                const SizedBox(
                   width: 270,
                   height: 96,
                   child: Stack(
-                    children: const [
+                    children: [
                       Positioned(
                         top: 10,
                         child: Text(
@@ -1528,8 +1529,8 @@ class MyHomePage extends StatelessWidget {
                   decoration: const BoxDecoration(
                       color: Color.fromRGBO(45, 45, 45, 1),
                       borderRadius: BorderRadius.all(Radius.circular(9.0))),
-                  child: Stack(
-                    children: const [
+                  child: const Stack(
+                    children: [
                       Positioned(
                           left: 10,
                           top: 15,
@@ -1570,8 +1571,8 @@ class MyHomePage extends StatelessWidget {
                   decoration: const BoxDecoration(
                       color: Color.fromRGBO(45, 45, 45, 1),
                       borderRadius: BorderRadius.all(Radius.circular(9.0))),
-                  child: Stack(
-                    children: const [
+                  child: const Stack(
+                    children: [
                       Positioned(
                           left: 10,
                           top: 15,
@@ -1612,8 +1613,8 @@ class MyHomePage extends StatelessWidget {
                   decoration: const BoxDecoration(
                       color: Color.fromRGBO(45, 45, 45, 1),
                       borderRadius: BorderRadius.all(Radius.circular(9.0))),
-                  child: Stack(
-                    children: const [
+                  child: const Stack(
+                    children: [
                       Positioned(
                           left: 10,
                           top: 15,
@@ -1654,8 +1655,8 @@ class MyHomePage extends StatelessWidget {
                   decoration: const BoxDecoration(
                       color: Color.fromRGBO(45, 45, 45, 1),
                       borderRadius: BorderRadius.all(Radius.circular(9.0))),
-                  child: Stack(
-                    children: const [
+                  child: const Stack(
+                    children: [
                       Positioned(
                           left: 10,
                           top: 15,
@@ -1698,11 +1699,11 @@ class MyHomePage extends StatelessWidget {
                       borderRadius: BorderRadius.all(Radius.circular(9.0))),
                   child: Stack(
                     children: [
-                      Positioned(
+                      const Positioned(
                         top: 20,
                         left: 15,
                         child: Row(
-                          children: const [
+                          children: [
                             Text(
                               'Subtotal',
                               style: TextStyle(
@@ -1719,11 +1720,11 @@ class MyHomePage extends StatelessWidget {
                           ],
                         ),
                       ),
-                      Positioned(
+                      const Positioned(
                         top: 50,
                         left: 15,
                         child: Row(
-                          children: const [
+                          children: [
                             Text(
                               'Tax 10%',
                               style: TextStyle(
@@ -1750,11 +1751,11 @@ class MyHomePage extends StatelessWidget {
                           ),
                         ),
                       ),
-                      Positioned(
+                      const Positioned(
                         top: 90,
                         left: 15,
                         child: Row(
-                          children: const [
+                          children: [
                             Text(
                               'Total',
                               style: TextStyle(
@@ -1775,11 +1776,11 @@ class MyHomePage extends StatelessWidget {
                           ],
                         ),
                       ),
-                      Positioned(
+                      const Positioned(
                         top: 300,
                         left: 20,
                         child: Row(
-                          children: const [
+                          children: [
                             Text(
                               'Payment Method',
                               style: TextStyle(
